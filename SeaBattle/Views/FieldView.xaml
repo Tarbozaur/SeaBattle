@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="SeaBattle.Views.FieldView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SeaBattle.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="200">
+    <UniformGrid Rows="10">
+        <local:FieldRowView DataContext="{Binding FieldRowViewViewModels[0],UpdateSourceTrigger=PropertyChanged}" Width="200"/>
+        <local:FieldRowView DataContext="{Binding FieldRowViewViewModels[1],UpdateSourceTrigger=PropertyChanged}" Width="200"/>
+        <local:FieldRowView DataContext="{Binding FieldRowViewViewModels[2],UpdateSourceTrigger=PropertyChanged}" Width="200"/>
+        <local:FieldRowView DataContext="{Binding FieldRowViewViewModels[3],UpdateSourceTrigger=PropertyChanged}" Width="200"/>
+        <local:FieldRowView DataContext="{Binding FieldRowViewViewModels[4],UpdateSourceTrigger=PropertyChanged}" Width="200"/>
+        <local:FieldRowView DataContext="{Binding FieldRowViewViewModels[5],UpdateSourceTrigger=PropertyChanged}" Width="200"/>
+        <local:FieldRowView DataContext="{Binding FieldRowViewViewModels[6],UpdateSourceTrigger=PropertyChanged}" Width="200"/>
+        <local:FieldRowView DataContext="{Binding FieldRowViewViewModels[7],UpdateSourceTrigger=PropertyChanged}" Width="200"/>
+        <local:FieldRowView DataContext="{Binding FieldRowViewViewModels[8],UpdateSourceTrigger=PropertyChanged}" Width="200"/>
+        <local:FieldRowView DataContext="{Binding FieldRowViewViewModels[9],UpdateSourceTrigger=PropertyChanged}" Width="200"/>
+    </UniformGrid>
+</UserControl>

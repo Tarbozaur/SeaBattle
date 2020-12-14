@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="SeaBattle.Views.FieldRowView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SeaBattle.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="20" d:DesignWidth="200">
+    <UniformGrid Columns="10">
+        <Button BorderBrush="Black" 
+                Background="{Binding Backgrounds[0], UpdateSourceTrigger=PropertyChanged}"
+                Width="20" Height="20" Command="{Binding Button1Command}"/>
+        <Button BorderBrush="Black" 
+                Background="{Binding Backgrounds[1], UpdateSourceTrigger=PropertyChanged}"
+                Width="20" Height="20" Command="{Binding Button2Command}"/>
+        <Button BorderBrush="Black"  
+                Background="{Binding Backgrounds[2], UpdateSourceTrigger=PropertyChanged}"
+                Width="20" Height="20" Command="{Binding Button3Command}"/>
+        <Button BorderBrush="Black"  
+                Background="{Binding Backgrounds[3], UpdateSourceTrigger=PropertyChanged}"
+                Width="20" Height="20" Command="{Binding Button4Command}"/>
+        <Button BorderBrush="Black" 
+                Background="{Binding Backgrounds[4], UpdateSourceTrigger=PropertyChanged}"
+                Width="20" Height="20" Command="{Binding Button5Command}"/>
+        <Button BorderBrush="Black"  
+                Background="{Binding Backgrounds[5], UpdateSourceTrigger=PropertyChanged}"
+                Width="20" Height="20" Command="{Binding Button6Command}"/>
+        <Button BorderBrush="Black" 
+                Background="{Binding Backgrounds[6], UpdateSourceTrigger=PropertyChanged}"
+                Width="20" Height="20" Command="{Binding Button7Command}"/>
+        <Button BorderBrush="Black"  
+                Background="{Binding Backgrounds[7], UpdateSourceTrigger=PropertyChanged}"
+                Width="20" Height="20" Command="{Binding Button8Command}"/>
+        <Button BorderBrush="Black"  
+                Background="{Binding Backgrounds[8], UpdateSourceTrigger=PropertyChanged}"
+                Width="20" Height="20" Command="{Binding Button9Command}"/>
+        <Button BorderBrush="Black"  
+                Background="{Binding Backgrounds[9], UpdateSourceTrigger=PropertyChanged}"
+                Width="20" Height="20" Command="{Binding Button10Command}"/>
+    </UniformGrid>
+</UserControl>
